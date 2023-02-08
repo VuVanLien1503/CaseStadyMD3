@@ -1,4 +1,8 @@
 package service.myinterface;
 
-public interface ISearch {
+import java.util.List;
+
+public interface ISearch <E>{
+    public List<E> selectName(String value);
+    public E selectById(int id);
 }
