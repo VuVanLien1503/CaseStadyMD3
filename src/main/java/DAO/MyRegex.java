@@ -11,25 +11,6 @@ public class MyRegex {
     private String patternPassWord = "^[a-zA-Z0-9]{4,15}$";
     private String patternNumber="[0-9]+$";
     private String patternDouble="^[0-9.]+$";
-
-    public String getPatternText() {
-        return patternText;
-    }
-
-    public void setPatternText(String patternText) {
-        this.patternText = patternText;
-    }
-
-    public String getPatternDouble() {
-        return patternDouble;
-    }
-
-    public void setPatternDouble(String patternDouble) {
-        this.patternDouble = patternDouble;
-    }
-
-    public MyRegex() {
-    }
     public  boolean regex(String input, String pattern) {
         return Pattern.compile(pattern)
                 .matcher(input)
@@ -44,6 +25,10 @@ public class MyRegex {
         return patternName;
     }
 
+    public String getPatternText() {
+        return patternText;
+    }
+
     public String getPatternPhone() {
         return patternPhone;
     }
@@ -54,5 +39,9 @@ public class MyRegex {
 
     public String getPatternNumber() {
         return patternNumber;
+    }
+
+    public String getPatternDouble() {
+        return patternDouble;
     }
 }

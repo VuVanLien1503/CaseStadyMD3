@@ -100,3 +100,7 @@ status boolean default true
  insert into book(name,descriptions,image,quantity,producer_id,category_id,book_position) values('Sach_Tieu_Thuyet_4','Tốt','D:\CodeGym\MD3\Week2\bookManager\src\image\imageBook\TrinhTham\Sach_Trinh_Tham_4.png',50,3,2,10);
  insert into book(name,descriptions,image,quantity,producer_id,category_id,book_position) values('Sach_Tieu_Thuyet_5','Tốt','D:\CodeGym\MD3\Week2\bookManager\src\image\imageBook\TrinhTham\Sach_Trinh_Tham_5.png',50,3,2,11);
  insert into book(name,descriptions,image,quantity,producer_id,category_id,book_position) values('Sach_Trinh_Tham_6','Tốt','D:\CodeGym\MD3\Week2\bookManager\src\image\imageBook\TrinhTham\Sach_Trinh_Tham_6.png',50,1,1,12);
+-------------------------------------------------------
+    --  Thêm mới 1 cuấn sách
+
+insert into book(name,descriptions,image,quantity,producer_id,category_id,book_position) values(?,?,?,?,?,?,?);
